@@ -1,0 +1,109 @@
+*{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+}
+body{
+      background-image: url("../../images/forest4k.jpg");
+      background-size: cover;
+      /* background-color: black; */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+
+}
+.container{
+
+      background-color: #ffffff;
+      display: block;
+      width: 300px;
+      height: 400px;
+      border-radius: 7px;
+      
+}
+.heading{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 35px;
+      color: green;
+}
+.underline{
+      width: 30px;
+      height: 4px;
+      background-color: green;
+      margin: 10px auto 25px auto;
+      transform: trasform .5s;
+}
+.container2{
+      margin-top: 20px;
+      padding-inline: 30px;
+}
+.container3{
+      display: flex;
+      align-items: center;
+       background: #eaeaea;
+       margin: 15px 0px;
+       border-radius: 10px;   
+
+       max-height: 60px;
+       transition: max-height 0.5s;
+       overflow: hidden;
+}
+
+.container3 input{
+      width: 100%;  
+      background: transparent;
+      border: none;
+      outline: none;
+      padding: 15px;
+}
+.container3 i{
+      padding-left: 10px;
+      color: #999;
+}
+.container4{
+      display: flex;
+      font-size: 13px;
+}
+.Suggestion{
+      color: green;
+      cursor: pointer;
+}
+.btns{
+      margin-block: 30px;
+      display: flex;
+      justify-content: space-between;
+      
+}
+.btn{
+      padding: 6px 30px;
+      border: none;
+      outline: 0;
+      border-radius: 10px;
+      background-color: green;
+      color: #fff;
+      cursor: pointer;
+      transition: background 1s;
+}
+button.btn2{
+      background: #eaeaea;
+      padding: 6px 30px;
+      border: none;
+      outline: 0;
+      border-radius: 10px;
+      color: #555;
+      cursor: pointer;
+      transition: background 1s;
+}
+button.disable {
+  background-color: #eaeaea;
+  color: #555; /* Adjust text color as needed */
+}
+button.addC {
+  background-color: green;
+  color: #fff; /* Adjust text color as needed */
+}
+
